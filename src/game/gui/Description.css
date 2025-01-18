@@ -1,0 +1,19 @@
+.btn {
+    -fx-background-color: #007bff; /* Blue background */
+    -fx-text-fill: white; /* White text color */
+    -fx-border-color: transparent; /* Transparent border color */
+    -fx-border-width: 0; /* No border */
+    -fx-padding: 15px 30px; /* Padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-font-size: 14px; /* Font size */
+    -fx-cursor: hand; /* Cursor style */
+    -fx-alignment: center; /* Center align text */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-transition: transform 0.8s ease; /* Transition effect */
+}
+
+.btn:hover {
+    -fx-scale-x:1.1; /* Scale on hover */
+    -fx-scale-y:1.1;
+}

@@ -1,0 +1,17 @@
+.button {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+    -fx-border-color: #222;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #666;
+}
+
+.button:pressed {
+    -fx-background-color: #222;
+}
